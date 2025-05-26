@@ -8,6 +8,7 @@ let residuo
 let array = []
 let Fibonacci
 
+
 function Validacion(value) {
     
     for (let n = 0; n < cousins.length; n++){
