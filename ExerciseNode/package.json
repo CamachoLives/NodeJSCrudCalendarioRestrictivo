@@ -1,0 +1,20 @@
+{
+  "name": "exercisenode",
+  "version": "1.0.0",
+  "description": "Exercise to learn about NodeJs",
+  "keywords": [
+    "Cliente",
+    "Servidor",
+    "Modelo"
+  ],
+  "license": "ISC",
+  "author": "Stian Camacho",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}
