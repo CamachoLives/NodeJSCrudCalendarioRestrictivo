@@ -12,5 +12,5 @@ const main = async() => {
     })
     console.log(characters);
 }
-
+// main
 main();
