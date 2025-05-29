@@ -10,7 +10,7 @@
   "license": "ISC",
   "author": "Stian Camacho",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "/ExerciseNode/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
