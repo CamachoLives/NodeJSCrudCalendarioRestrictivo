@@ -15,5 +15,5 @@ const main = async() => {
     }).map((personaje) => Object.values(personaje).join(",")).join("\n");
     console.log(characters);
 };
-// 
+// main
 main();
