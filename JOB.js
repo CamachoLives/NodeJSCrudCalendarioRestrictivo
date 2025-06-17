@@ -28,7 +28,7 @@ for (i = 0; i <= 10; i++ ){
     alert(N, " X ", i, " = ", N * i   );
 };
 
-
+//hOLA
 //Escribe un programa que cuente del 1 al 20, pero que diga “¡Boom!” en lugar del número 13.
 //Inicializamos el for hasta el numero 20
 for ( x = 1; x <= 20; x++) {
