@@ -54,7 +54,8 @@ const datos = (callback) => {
         Edad:25
     }),
     3000};
-
+ 
+    
 const imprimir = (datos) => console.log(datos);
     
 datos(imprimir);
