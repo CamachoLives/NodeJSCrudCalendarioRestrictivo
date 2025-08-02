@@ -48,15 +48,10 @@ const characters = {
 } 
 
 
-const datos = (callback) => {
-    callback({
-        name:"Andres",
-        Edad:25
-    }),
-    3000};
- //
+const resta = (x,z,CB) => {
 
-const imprimir = (datos) => console.log(datos);
-    
-datos(imprimir);
+}
+const resultado = (R) => (console.log(R));
+
+resta(9,5,resultado);
 
