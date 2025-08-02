@@ -15,7 +15,6 @@ const GetData = (Cb) => {
     })
 }
 
-//
 GetData(false)
 .then((Cb) => {
     console.log(Cb);
