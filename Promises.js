@@ -14,7 +14,7 @@ const GetData = (Cb) => {
         }
     })
 }
-
+//Hola
 GetData(false)
 .then((Cb) => {
     console.log(Cb);
