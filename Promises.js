@@ -14,7 +14,7 @@ const GetData = (Cb) => {
         }
     })
 }
-// HIII
+// hola
 GetData(false)
 .then((Cb) => {
     console.log(Cb);
