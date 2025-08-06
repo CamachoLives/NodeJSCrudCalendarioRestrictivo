@@ -14,7 +14,7 @@ const GetData = (Cb) => {
         }
     })
 }
-// 
+// LIKE
 GetData(false)
 .then((Cb) => {
     console.log(Cb);
