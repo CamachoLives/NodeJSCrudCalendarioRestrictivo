@@ -25,10 +25,26 @@
 
 
 
-const Speak = (name,cb) => {
-        cb("How it's going?");
+const operation = (num1,num2,cb) => {
+
+    switch (num1) {
+        case 1: 
+            cb(num1 + num2)
+            break;
+        case 2: 
+            cb(num1 - num2)
+            break;
+         case 3:  
+            cb(num1 * num2)
+            break;
+         case 4: 
+            cb(num1 % num2)
+            break;
+        default: cb("Man, have put a number! ")
+            break;
+    }   
 }
 
-Speak("Andres",(cbb) => {
-        console.log(cbb,"Good  and u?")
-})
+operation(5,7,(returned) =>{
+    console.log("This is the result --> ",returned);
+});
