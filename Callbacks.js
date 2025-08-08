@@ -25,26 +25,13 @@
 
 
 
-const operation = (num1,num2,cb) => {
-
-    switch (num1) {
-        case 1: 
-            cb(num1 + num2)
-            break;
-        case 2: 
-            cb(num1 - num2)
-            break;
-         case 3:  
-            cb(num1 * num2)
-            break;
-         case 4: 
-            cb(num1 % num2)
-            break;
-        default: cb("Man, have put a number! ")
-            break;
-    }   
+const download = (file,cb) => {
+    console.log("Downloading the file...", file);
+    setTimeout(() => {
+        cb("Succesful, great!");
+    }, 3000);
 }
 
-operation(5,7,(returned) =>{
-    console.log("This is the result --> ",returned);
-});
+download("https://YourPage.com/file.pdf",(product) => {
+    console.log(product);
+})
