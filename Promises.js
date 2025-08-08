@@ -14,7 +14,7 @@ const GetData = (Cb) => {
         }
     })
 }
-// SS
+// HI
 GetData(false)
 .then((Cb) => {
     console.log(Cb);
