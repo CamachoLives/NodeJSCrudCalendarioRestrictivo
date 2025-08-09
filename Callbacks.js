@@ -32,30 +32,28 @@ const FirstStep = (cb) => {
 const SecondtStep = (cb) => {
     setTimeout(() => {
         console.log("Second step");
+        return cb();
     }, 2000);
-    return cb();
 }
 const ThirdStep = (cb) => {
     setTimeout(() => {
         console.log("Third step");
-    }, 4000);
-    return cb();
+        return cb();
+    }, 3000);
 }
 const FourthtStep = (cb) => {
     setTimeout(() => {
         console.log("Fourth step");
-    }, 6000);
-    return cb();
+        return cb();
+    }, 5000);
 }
 
 
 FirstStep(() => {
     SecondtStep(() =>{
         ThirdStep(() => {
-            FourthtStep(() => {
-                setTimeout(() => {
+            FourthtStep(() => { 
                     console.log("The steps were completed");
-                }, 8000);
             })
         })
     })
