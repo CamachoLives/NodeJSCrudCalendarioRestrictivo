@@ -20,8 +20,6 @@
 
     // Getdata(Print);
 
-//NICE
-
 
 
 const FirstStep = (cb) => {
