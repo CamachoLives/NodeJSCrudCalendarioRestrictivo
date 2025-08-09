@@ -19,7 +19,6 @@
     // const Print = (data) => console.log(data);
 
     // Getdata(Print);
-        //HOLA
 
 
 
