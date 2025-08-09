@@ -25,13 +25,38 @@
 
 
 
-const download = (file,cb) => {
-    console.log("Downloading the file...", file);
+const FirstStep = (cb) => {
+        console.log("first step");
+    return cb();
+}
+const SecondtStep = (cb) => {
     setTimeout(() => {
-        cb("Successful, great!");
-    }, 3000);
+        console.log("Second step");
+    }, 2000);
+    return cb();
+}
+const ThirdStep = (cb) => {
+    setTimeout(() => {
+        console.log("Third step");
+    }, 4000);
+    return cb();
+}
+const FourthtStep = (cb) => {
+    setTimeout(() => {
+        console.log("Fourth step");
+    }, 6000);
+    return cb();
 }
 
-download("https://YourPage.com/file.pdf",(product) => {
-    console.log(product);
+
+FirstStep(() => {
+    SecondtStep(() =>{
+        ThirdStep(() => {
+            FourthtStep(() => {
+                setTimeout(() => {
+                    console.log("The steps were completed");
+                }, 8000);
+            })
+        })
+    })
 })
