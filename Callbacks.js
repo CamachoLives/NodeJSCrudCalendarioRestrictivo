@@ -26,35 +26,31 @@
 
 
 const FirstStep = (cb) => {
-        console.log("first step");
-    return cb();
+     const array = [1,2,3,4,5,6,7,8,9,10];
+     console.log("We'll get fibonacci");
+     let x = 0
+     for(let z = 0; z <= array.length; z++ ){
+            x = x + z
+            console.log(x);
+     }
+     setTimeout(() => {
+        console.log("Result's fibonacci code --> ", x);
+        return cb();
+     }, 2000);
 }
 const SecondtStep = (cb) => {
-    setTimeout(() => {
-        console.log("Second step");
-        return cb();
-    }, 2000);
+
+        const p = 12 * 8
+        setTimeout(() => {
+            console.log("Solution's problem --> ", p);
+            return cb();
+        }, 2000);
 }
-const ThirdStep = (cb) => {
-    setTimeout(() => {
-        console.log("Third step");
-        return cb();
-    }, 3000);
-}
-const FourthtStep = (cb) => {
-    setTimeout(() => {
-        console.log("Fourth step");
-        return cb();
-    }, 5000);
-}
+
 
 
 FirstStep(() => {
-    SecondtStep(() =>{
-        ThirdStep(() => {
-            FourthtStep(() => { 
-                    console.log("The steps were completed");
-            })
-        })
+    SecondtStep(() => {
+         console.log("Executed successful");
     })
 })
