@@ -28,7 +28,7 @@
 const download = (file,cb) => {
     console.log("Downloading the file...", file);
     setTimeout(() => {
-        cb("Succesful, great!");
+        cb("Successful, great!");
     }, 3000);
 }
 
