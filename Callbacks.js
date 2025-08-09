@@ -48,7 +48,6 @@ const SecondtStep = (cb) => {
 }
 
 
-
 FirstStep(() => {
     SecondtStep(() => {
          console.log("Executed successful");
