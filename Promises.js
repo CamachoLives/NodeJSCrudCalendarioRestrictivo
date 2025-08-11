@@ -23,7 +23,7 @@
 //     console.log(error);
 // })
 
-//CSC
+//
 
 const GetData = (Cb, extra) => {
     return new Promise((ok, fail) => {
