@@ -28,7 +28,6 @@ const FirstStep = (cb) => {
      let x = 0
      for(let z = 0; z <= array.length; z++ ){
             x = x + z
-            console.log(x);
      }
      setTimeout(() => {
         console.log("Result's fibonacci code --> ", x);
