@@ -23,7 +23,7 @@
 //     console.log(error);
 // })
 
-//HII
+//
 
 const GetData = (Cb, extra) => {
     return new Promise((ok, fail) => {
