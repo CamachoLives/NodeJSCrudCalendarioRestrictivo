@@ -29,8 +29,8 @@ const main = async() => {
                 species: character.species
             }
      }).map((Valores) => Object.values(Valores).join(",")).join("\n")
-//HII
-    const cabecera = "Id,Name,Specie"
+
+     const cabecera = "Id,Name,Specie"
     await fs.writeFile(path.join(__dirname,"Datos1.csv"), cabecera + "\n" + characters);
 
     // console.log(path.join(__dirname,"Datos.csv"));
