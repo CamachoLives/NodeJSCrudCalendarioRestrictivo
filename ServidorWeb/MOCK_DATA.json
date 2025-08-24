@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "first_name": "Winfield",
+    "last_name": "Schoffler",
+    "gender": "Male"
+  },
+  { "id": 2, 
+    "first_name": "Elton",
+    "last_name": "Sallis",
+    "gender": "Male" },
+  {
+    "id": 3,
+    "first_name": "Danella",
+    "last_name": "Giorgione",
+    "gender": "Female"
+  },
+  {
+    "id": 4,
+    "first_name": "Arvie",
+    "last_name": "Spiers",
+    "gender": "Polygender"
+  },
+  {
+    "id": 5,
+    "first_name": "Aristotle",
+    "last_name": "Ventam",
+    "gender": "Male"
+  },
+  {
+    "id": 6,
+    "first_name": "York",
+    "last_name": "Wise",
+    "gender": "Non-binary"
+  },
+  { "id": 7, 
+    "first_name": "Kimball", 
+    "last_name": "Kinde", 
+    "gender": "Male" },
+  {
+    "id": 8,
+    "first_name": "Mame",
+    "last_name": "Gudgeon",
+    "gender": "Genderfluid"
+  },
+  {
+    "id": 9,
+    "first_name": "Trescha",
+    "last_name": "Legerwood",
+    "gender": "Female"
+  },
+  {
+    "id": 10,
+    "first_name": "Benyamin",
+    "last_name": "Downie",
+    "gender": "Male"
+  },
+  { "id": 11,
+    "first_name": "Avie",
+    "last_name": "Hartop",
+    "gender": "Female" },
+  {
+    "id": 12,
+    "first_name": "Nicolis",
+    "last_name": "Sclater",
+    "gender": "Male"
+  },
+  {
+    "id": 13,
+    "first_name": "Oberon",
+    "last_name": "Wimbury",
+    "gender": "Male"
+  },
+  {
+    "id": 14,
+    "first_name": "Jeana",
+    "last_name": "Berrey",
+    "gender": "Agender"
+  },
+  {
+    "id": 15,
+    "first_name": "Karleen",
+    "last_name": "Mace",
+    "gender": "Female"
+  },
+  { "id": 16, 
+    "first_name": "Egon", 
+    "last_name": "Acuna", 
+    "gender": "Male" },
+  {
+    "id": 17,
+    "first_name": "Vinni",
+    "last_name": "Hitcham",
+    "gender": "Female"
+  },
+  { "id": 18, 
+    "first_name": "Dougy", 
+    "last_name": "Worcs", 
+    "gender": "Male" },
+  {
+    "id": 19,
+    "first_name": "Marjie",
+    "last_name": "Rousell",
+    "gender": "Female"
+  },
+  {
+    "id": 20,
+    "first_name": "Patrica",
+    "last_name": "Cappell",
+    "gender": "Female"
+  }
+]
