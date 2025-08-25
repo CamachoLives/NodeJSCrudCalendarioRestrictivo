@@ -20,7 +20,7 @@ app.get("/", (Req, Res) => {
 // this endpoint will allow us to create a new user
 app.post("/", (Req, Res) => {
   const newUser = Req.body;
-  Res.json({
+  Res.status(201).json({
     message: "User Created  Successfully",
     body: Service.CreateUser(newUser),
   });
