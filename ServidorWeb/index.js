@@ -1,10 +1,9 @@
 // the sheet that will contain all above the Server
 //Variables
 const express = require("express");
-const app     = express();
+const app = express();
 const Service = require("./src/service");
-const PORT    = 4000;
-// const data = require("./MOCK_DATA.json");
+const PORT = 4000;
 
 // this middleware will allow us to read the body of the request
 app.use(express.json());
