@@ -17,12 +17,47 @@ app.get("/", (Req, Res) => {
   });
 });
 
+// this endpoint will allow us to read a user by id
+app.get("/:id", (Req, Res) => {
+  let {
+    params: { id },
+  } = Req;
+  let user = Service.getuser(id);
+
+  Res.json({
+    message: `Usuario con id: ${id}`,
+    body: user,
+  });
+});
+
 // this endpoint will allow us to create a new user
 app.post("/", (Req, Res) => {
   const newUser = Req.body;
   Res.status(201).json({
     message: "User Created  Successfully",
     body: Service.CreateUser(newUser),
+  });
+});
+
+// this entpoint will allow us to update a user
+app.put("/:id", (Req, Res) => {
+  let {
+    params: { id },
+  } = Req;
+  const UpdUser = Req.body;
+  Res.json({
+    message: `ID modified: ${id}`,
+    body: Service.UpdateUser(id, UpdUser),
+  });
+});
+
+app.delete("/:id", (Req, Res) => {
+  let {
+    params: { id },
+  } = Req;
+  Res.json({
+    message: `ID Eliminated: ${id}`,
+    body: Service.DeleteUser(id),
   });
 });
 
