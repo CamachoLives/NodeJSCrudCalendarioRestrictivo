@@ -12,4 +12,4 @@ function removeDuplicates(nums) {
 }
 
 console.log(removeDuplicates(nums));
-// H
+// HI
