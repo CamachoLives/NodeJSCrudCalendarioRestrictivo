@@ -7,9 +7,9 @@ function removeDuplicates(nums) {
       nums[z] = nums[i];
       z++;
     }
-    
   }
   return z;
 }
 
 console.log(removeDuplicates(nums));
+//
