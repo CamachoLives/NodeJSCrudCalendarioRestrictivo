@@ -1,19 +1,16 @@
-const prices = [1, 2, 3, 4, 5 ];
+const prices = [7,1,5,3,6,4];
 
 function maxprofit(prices) {
-  let z = 0;
   let valortotal = 0;
   for (let x = 0; x < prices.length; x++) {
-    if (z === 0) {
-      if (prices[x] > z) {
-        valortotal = z + prices[x];
-        console.log("times", valortotal);
-      }
+    console.log(prices[x])
+    console.log(prices[x + 1])
+    if (prices[x] < prices[x + 1]) {
+      valortotal = (prices[x + 1] - prices[x]) + valortotal;
+      console.log(valortotal)
     }
-    z = prices[x];
-    console.log(z);
   }
-  return valortotal;
+  return valortotal
 }
 
 console.log(maxprofit(prices));
