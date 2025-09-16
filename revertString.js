@@ -6,6 +6,9 @@ var reverseString = function (s) {
     let temporal = s[z];
     s[z] = s[k];
     s[k] = temporal;
+
+    z++;
+    k--;
   }
   console.log(s);
   return s;
