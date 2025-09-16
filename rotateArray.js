@@ -1,24 +1,15 @@
-const nums = [-1, -100, 3, 99],
-  k = 2;
+const nums = [1, 2, 3, 4, 5, 6, 7],
+  k = 3;
 var rotate = function (nums, k) {
-  let z = 0;
-  console.log(k);
-  for (let x = 0; x < nums.length; x++) {
-    console.log(nums[k + 1]);
-    console.log(nums.length);
+  const parte = nums.slice(-k);
+  console.log(parte);
 
-    if (nums.length >= k) {
-      nums[z] = nums[k + 1];
-      z++;
-      k++;
-    } else {
-      for (let y = 0; (y = k); y++) {
-        nums[z] = nums[y];
-        z++;
-      }
-    }
-  }
-  return nums[z];
+  const parte1 = nums.slice(0, nums.length - k);
+  console.log(parte1);
+
+  const union = parte.concat(parte1);
+  console.log(union);
+  return union;
 };
 
 console.log(rotate(nums, k));
