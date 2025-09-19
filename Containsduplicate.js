@@ -9,7 +9,7 @@ var containsDuplicate = function (nums) {
       return true;
     }
   }
-  // New issue
+  // New
   return false;
 };
 
