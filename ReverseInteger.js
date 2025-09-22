@@ -1,4 +1,4 @@
-int = 3456;
+int = -3456;
 var reverse = function (int) {
   let r = null;
   let contador = 0;
