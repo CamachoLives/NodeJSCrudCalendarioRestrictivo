@@ -18,7 +18,7 @@ var reverse = function (int) {
     temporal = r;
   }
   int = r;
-  // Hi
+  //
   return parseInt(int);
 };
 
